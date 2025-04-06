@@ -1,18 +1,45 @@
-## Getting Started
+# Java Calculator
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A fully functional GUI-based calculator built with **Java Swing**.  
+This calculator supports both basic and advanced operations including trigonometric functions and square root, all with a clean modern UI.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## ✨ Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Basic operations: `+`, `-`, `×`, `÷`
+- Advanced: `√`, `^`, `%`, `+/-`
+- Trigonometry: `sin`, `cos`, `tan`
+- Additional buttons: `AC`, `DEL`, `ON/OFF`, brackets
+- Custom colors and responsive layout
+- Built with Java AWT/Swing
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Getting Started with VS Code
 
-## Dependency Management
+Welcome to the VS Code Java world. Here's how to get started writing and running Java code in Visual Studio Code.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### 📁 Folder Structure
+
+The workspace contains the following folders:
+
+- `src/` – where your Java source code lives (e.g. `Calculate.java`)
+- `lib/` – for managing external dependencies
+- `bin/` – generated automatically when you compile your code
+
+> You can change this structure by updating `.vscode/settings.json`.
+
+---
+
+## 🧪 How to Run
+
+1. Open the project in **Visual Studio Code**
+2. Compile and run the program from `src/Calculate.java`
+
+Or use the terminal:
+
+```bash
+cd src
+javac Calculate.java
+java Calculate
